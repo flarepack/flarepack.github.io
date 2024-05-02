@@ -1,0 +1,19 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+---
+
+<div class="page sl-flex">
+	<div class="main-frame"><slot /></div>
+</div>
+
+<style>
+	.page {
+		flex-direction: column;
+		min-height: 100vh;
+	}
+
+	.main-frame {
+		padding-top: calc(var(--sl-mobile-toc-height));
+		padding-inline-start: var(--sl-content-inline-start);
+	}
+</style>

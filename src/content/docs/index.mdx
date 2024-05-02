@@ -1,0 +1,32 @@
+---
+title: Flarepack
+head:
+  - tag: title
+    content: Flarepack - Modular building blocks and integrations to make developing on Cloudflare a breeze.
+description:
+  Flarepack makes it easy to develop apps and services on Cloudflare's developer platform.
+  Deploy modular services such as auth, notifications, payment integrations, and more with a click
+  of a buttton. Everything is specifically designed to be fast and light weight in order to take
+  advantage of Cloudflare's edge network.
+template: splash
+hero:
+  tagline:
+    Modular building blocks and integrations for building on Cloudflare's edge network.
+---
+
+import { LinkCard, CardGrid, Card } from '@astrojs/starlight/components';
+
+<CardGrid>
+	<LinkCard 
+		title="Switchboard"
+		href="https://flarepack.github.io/switchboard/"
+		description="Trigger messages or notifications from anywhere in your code and send them to Discord, Slack, Teams, Email, and more."
+	/>
+</CardGrid>
+
+<br/>
+<br/>
+:::caution[Open Source]
+Flarepack is free and opensource. If you find this software helpful consider [staring us or contributing on github](https://github.com/flarepack).
+:::
+

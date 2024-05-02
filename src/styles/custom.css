@@ -1,0 +1,24 @@
+:root {
+  --color-brand: #f6821f;
+  --sl-hue-accent: var(--sl-hue-red);
+}
+
+h1[data-page-title],
+a.site-title,
+code.pls {
+  font-family: var(--__sl-font-mono);
+  font-weight: bold;
+  color: var(--color-brand);
+}
+
+.hero {
+  grid-template-columns: 1fr;
+}
+
+.hero .copy {
+  align-items: center;
+}
+
+.hero .actions {
+  justify-content: center;
+}
